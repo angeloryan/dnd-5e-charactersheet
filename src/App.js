@@ -1,20 +1,23 @@
-import './App.css';
+import "./App.css";
+import React from 'react'
+import { useState } from "react";
+import StatsDisplay from "./StatsDisplay";
 
 function App() {
+  const [data, setData] = useState({});
+
+  const updateData = (stats) => {
+    setData(stats)
+  }
+
   return (
-    <div>
-      <h1>Header</h1>
-      <Comp str = "this is a string" />
+    <div className = "App">
+      <h1>D&D 5E Character Sheet</h1>
+      <main>
+        <StatsDisplay updateData = {updateData}/>
+      </main>
     </div>
   );
-}
-
-function Comp(props) {
-  return (
-    <div>
-      <p>Input string: {props.str}</p>
-    </div>
-  )
 }
 
 export default App;
