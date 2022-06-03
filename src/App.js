@@ -1,7 +1,8 @@
 import "./App.css";
 import React from 'react'
 import { useState } from "react";
-import StatsDisplay from "./StatsDisplay";
+import CharacterLoader from "./CharacterLoader";
+import CharacterBoard from "./CharacterBoard";
 
 function App() {
   const [data, setData] = useState({});
@@ -14,7 +15,8 @@ function App() {
     <div className = "App">
       <h1>D&D 5E Character Sheet</h1>
       <main>
-        <StatsDisplay updateData = {updateData}/>
+        <CharacterLoader updateData={updateData}/>
+        <CharacterBoard data={data}/>
       </main>
     </div>
   );
