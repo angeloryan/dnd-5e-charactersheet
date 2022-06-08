@@ -1,4 +1,4 @@
-.popup {
+.popupPage {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,12 +10,13 @@
     align-items: center;
 }
 
-.popupInner {
+.inner {
     position: relative;
     padding: 32px;
     width: 100%;
     max-width: 640px;
-    background-color: #FFF;
+    background-color: rgb(73, 73, 73);
+    color: #f1f1f1
 }
 
 .closeButton {

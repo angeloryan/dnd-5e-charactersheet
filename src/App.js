@@ -1,25 +1,27 @@
-import "./App.css";
+import './App.css';
 import React from 'react'
-import { useState } from "react";
-import CharacterLoader from "./CharacterLoader";
-import CharacterBoard from "./CharacterBoard";
+import DemographicTable from './DemographicTable.js';
+import CharacterLoader from './CharacterLoader.js';
 
-function App() {
-  const [data, setData] = useState({});
-
-  const updateData = (stats) => {
-    setData(stats)
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      
+    };
   }
 
-  return (
-    <div className = "App">
-      <h1>D&D 5E Character Sheet</h1>
-      <main>
-        <CharacterLoader updateData={updateData}/>
-        <CharacterBoard data={data}/>
-      </main>
-    </div>
-  );
+  render() {
+    return (
+      <div className = "App">
+        <h1>D&D 5E Character Sheet</h1>
+        <main>
+          <CharacterLoader/>
+          <DemographicTable/>
+        </main>
+      </div>
+    );
+  }
 }
 
 export default App;

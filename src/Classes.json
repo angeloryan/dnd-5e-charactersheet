@@ -1,0 +1,62 @@
+[
+    {
+        "class": "Barbarian",
+        "hitDice": 12,
+        "saveProficency": ["Strength", "Constitution"]
+    },
+    {
+        "class": "Bard",
+        "hitDice": 8,
+        "saveProficency": ["Dexterity", "Charisma"]
+    },
+    {
+        "class": "Cleric",
+        "hitDice": 8,
+        "saveProficency": ["Wisdom", "Charisma"]
+    },
+    {
+        "class": "Druid",
+        "hitDice": 8,
+        "saveProficency": ["Intelligence", "Wisdom"]
+    },
+    {
+        "class": "Fighter",
+        "hitDice": 10,
+        "saveProficency": ["Strength", "Constitution"]
+    },
+    {
+        "class": "Monk",
+        "hitDice": 8,
+        "saveProficency": ["Strength", "Dexterity"]
+    },
+    {
+        "class": "Paladin",
+        "hitDice": 10,
+        "saveProficency": ["Wisdom", "Charisma"]
+    },
+    {
+        "class": "Ranger",
+        "hitDice": 10,
+        "saveProficency": ["Strength", "Dexterity"]
+    },
+    {
+        "class": "Rouge",
+        "hitDice": 8,
+        "saveProficency": ["Dexterity", "Intelligence"]
+    },
+    {
+        "class": "Sorcerer",
+        "hitDice": 6,
+        "saveProficency": ["Constitution", "Charisma"]
+    },
+    {
+        "class": "Warlock",
+        "hitDice": 8,
+        "saveProficency": ["Wisdom", "Charisma"]
+    },
+    {
+        "class": "Wizard",
+        "hitDice": 6,
+        "saveProficency": ["intelligence", "wisdom"]
+    }
+]
