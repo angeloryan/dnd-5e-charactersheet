@@ -1,35 +1,21 @@
 import React from 'react'
 
-class DemographicTable extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: '',
-            characterClass: '',
-            race: '',
-            background: '',
-        };
-    }
-
-    renderRow(header, data) {
+function DemographicTable(props) {
+    const renderRow = (header, data) => {
         return (
-            <div>
-                {header}: {data}
-            </div>
+                <p>{header}: {data}</p>
         );
     }
 
-
-    render() {
-        return (
-            <div className='demographicTable'>
-                {this.renderRow('Name', this.state.name)}
-                {this.renderRow('Class', this.state.name)}
-                {this.renderRow('Race', this.state.name)}
-                {this.renderRow('Background', this.state.name)}
-            </div>
-        );
-    }
+    return (
+        <div>
+            {'name' in props.characterStats ? renderRow('Name', props.characterStats['name']) : ''}
+            {'characterClass' in props.characterStats ? renderRow('Class', props.characterStats['characterClass']) : ''}
+            {'race' in props.characterStats ? renderRow('Race', props.characterStats['race']) : ''}
+            {'background' in props.characterStats ? renderRow('Background', props.characterStats['background']) : ''}
+            {'level' in props.characterStats ? renderRow('Level', props.characterStats['level']) : ''}
+        </div>
+    );
 }
 
 export default DemographicTable;

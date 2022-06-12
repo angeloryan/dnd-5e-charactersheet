@@ -1,6 +1,17 @@
 [
     {
-        "race": "Dwarf"
+        "race": "Dwarf",
+        "asi": {"Constitution": 2},
+        "size": "Medium",
+        "speed": 25,
+        "subraces": {
+            "HillDwarf": {
+                "asi": {"Wisdom": 2}
+            },
+            "Mountain Dwarf" : {
+                "asi": {"Strength": 2}
+            }
+        }
     },
     {
         "race": "Elf"
@@ -15,10 +26,10 @@
         "race": "Dragonborn"
     },
     {
-        "race": "Hnome"
+        "race": "Gnome"
     },
     {
-        "race": "half-elf"
+        "race": "Half-elf"
     },
     {
         "race": "Half-orc"
