@@ -5,7 +5,7 @@
         "size": "Medium",
         "speed": 25,
         "subraces": {
-            "HillDwarf": {
+            "Hill Dwarf": {
                 "asi": {"Wisdom": 2}
             },
             "Mountain Dwarf" : {

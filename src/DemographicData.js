@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function DemographicTable(props) {
+function DemographicData(props) {
     const renderRow = (header, data) => {
         return (
                 <p>{header}: {data}</p>
@@ -16,6 +16,6 @@ function DemographicTable(props) {
             {'level' in props.characterStats ? renderRow('Level', props.characterStats['level']) : ''}
         </div>
     );
-}
+};
 
-export default DemographicTable;
+export default DemographicData;

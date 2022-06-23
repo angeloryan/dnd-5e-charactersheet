@@ -2,12 +2,136 @@
     {
         "class": "Barbarian",
         "hitDice": 12,
-        "saveProficency": ["Strength", "Constitution"]
+        "saveProficency": ["Strength", "Constitution"],
+        "levelUp": [
+            {
+                "asi": {}
+            },
+            {
+                "asi": {"Strength": 2}
+            },
+            {
+                "asi": {"Wisdom": 2}
+            },
+            {
+                "asi": {"Wisdom": 2}
+            },
+            {
+                "asi": {"Wisdom": 2}
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            }
+        ]
     },
     {
         "class": "Bard",
         "hitDice": 8,
-        "saveProficency": ["Dexterity", "Charisma"]
+        "saveProficency": ["Dexterity", "Charisma"],
+        "levelUp": [
+            {
+                "asi": {}
+            },
+            {
+                "asi": {"Intelligence": 2}
+            },
+            {
+                "asi": {"Intelligence": 2}
+            },
+            {
+                "asi": {"Intelligence": 2}
+            },
+            {
+                "asi": {"Intelligence": 2}
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            },
+            {
+
+            }
+        ]
     },
     {
         "class": "Cleric",

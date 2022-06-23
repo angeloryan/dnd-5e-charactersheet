@@ -1,8 +1,10 @@
 import './App.css';
 import React from 'react';
 import {useState} from 'react';
-import DemographicTable from './DemographicTable.js';
+import DemographicData from './DemographicData.js';
 import CharacterLoader from './CharacterLoader.js';
+import LevelUp from './LevelUp.js';
+import ScoresAndModifiers from './ScoresAndModifiers';
 
 function App() {
   const [characterStats, setCharacterStats] = useState({});
@@ -16,7 +18,9 @@ function App() {
       <h1>D&D 5E Character Sheet</h1>
       <main>
         <CharacterLoader updateCharacterStats={updateCharacterStats}/>
-        <DemographicTable characterStats={characterStats}/>
+        <DemographicData characterStats={characterStats}/>
+        <ScoresAndModifiers characterStats={characterStats}/>
+        <LevelUp characterStats={characterStats} updateCharacterStats={updateCharacterStats}/>
       </main>
     </div>
   );

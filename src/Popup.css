@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.33);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +15,8 @@
     padding: 32px;
     width: 100%;
     max-width: 640px;
-    background-color: rgb(73, 73, 73);
-    color: #f1f1f1
+    background-color: rgb(255, 255, 255);
+    color: #000000
 }
 
 .closeButton {
